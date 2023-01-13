@@ -1,0 +1,156 @@
+:root {
+    --logo-btn-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --main-text-color: #434455;
+    --second-text-color: #2E2F42;
+    --third-text-color: #E7E9FC;
+    --change-color: #404BBF;
+    --backgroundcolor: #2E2F42;
+    --backgroundbtn: #F4F4FD;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: var(--white-color);
+    color: var(--main-text-color);
+}
+
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+
+/* -----Logo----- */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--logo-btn-color);
+}
+
+.accent {color: var(--second-text-color);}
+
+/* -----Navigation------ */
+
+.menu-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--second-text-color);}
+
+.menu-link:hover,
+.menu-link:focus {color: var(--change-color); }
+
+/* .menu-link.studio {color: var(--change-color)}
+
+.menu-link.portfolio {color: var(--change-color)}
+
+.menu-link.studio:hover,
+.menu-link.studio:focus {
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} */
+
+/* -----Adress----- */
+.contact-link {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: var(--main-text-color);
+}
+
+.contact-link:hover, .contact-link:focus {color: var(--change-color); }
+
+/* -----Hero----- */
+
+.btn-order {
+    background-color: var(--logo-btn-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+    color: var(--white-color);
+    
+    cursor: pointer;
+}
+
+.btn-order:hover, 
+.btn-order:focus {background-color: var(--change-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+
+.hero {background-color: var(--backgroundcolor) ;}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: var(--white-color);} 
+
+/* -----Components------     */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    color: var(--second-text-color);}
+
+
+.section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: var(--second-text-color);
+}
+
+.section-description  {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);}
+
+/* -----Footer----- */
+
+footer {background-color: var(--second-text-color);}
+
+.section-description-footer {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color); 
+}
+
+.accent-footer {
+    color: var(--third-text-color);
+}
+
+/* -----Portfolio----- */
+
+.filter-btn {
+    background-color: var(--backgroundbtn);
+    font-weight: 500;
+    
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--logo-btn-color);
+
+    cursor: pointer;
+}
+
+.filter-btn:hover, .filter-btn:focus {
+    background-color: var(--change-color);
+    color: var(--white-color);
+}
