@@ -29,9 +29,9 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
-    width: 1152px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
     /* outline: 2px solid tomato; */
 }
 
@@ -107,13 +107,13 @@ header {
 
 .page-nav {
     display: flex;
-    align-items: center;}
+    align-items: center;
+    margin-right: auto;}
 
 .page-nav-adress {
     display: flex;
-    align-items: center;
-    margin-left: 332px;}
-
+    align-items: center;}
+    
 .page-nav-adress-item:not(:last-child) {margin-right: 40px;}
 
 
@@ -202,7 +202,7 @@ header {
 
 /* -----Benefits------     */
 
-.container.benefits {
+.description-benefits {
     display: flex;
 }
 
@@ -210,7 +210,7 @@ header {
     width: 264px;
 }
 
-.description-benefits+.description-benefits {
+.description-benefits-item+.description-benefits-item {
     margin-left: 24px;
 }
 
@@ -252,6 +252,8 @@ border-radius: 0px 0px 4px 4px;
     align-items: center;
     flex-wrap: wrap;}
 
+.team-member-item {padding-bottom: 30px;}
+
 .team-member-item > .section-subtitle {text-align: center;}
 
 .team-member-item > .section-description {text-align: center;}
@@ -260,9 +262,9 @@ border-radius: 0px 0px 4px 4px;
 
 /* -----Footer----- */
 
-.conteiner.footer {padding: 100px;}
+.footer > .conteiner {padding: 100px;}
 
-footer {
+.footer {
 padding-top: 100px;
 padding-bottom: 100px;
 
